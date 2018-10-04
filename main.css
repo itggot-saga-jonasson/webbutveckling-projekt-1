@@ -4,21 +4,67 @@ body{
 
 .wrapper{
     background-color: maroon;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 
 header{
     width: 100%;
     height: 100px;
-    background-color: rgba(50, 15, 15, 0.75);
+    background-color:white;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
 }
+
 main{
     display: grid;
-    grid-template-columns: 10%, 80%, 10%;
+    grid-template-columns: 10% 80% 10%;
     height: 100vh;
 }
-/*.box{
-    grid-column: span 2;
+.box{
     background-color: rgba(51, 15, 15, 0.41);
-}*/
+}
+
+h1{
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0, 100%;
+    padding: 0;
+}
+
+a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:none;
+    margin: auto;
+    border: auto;
+    text-decoration: none;
+    font-size: 2em;
+    color: black;
+}
+
+li a{
+    display: block;
+    text-align: center;
+    /*padding: 20px, 100px;*/
+    margin: 10px;
+}
+
+li{
+    float: left;
+    background-color: goldenrod;
+    border-radius: 5px;
+}
+li:hover {
+    background-color: hotpink;
+
+  }
