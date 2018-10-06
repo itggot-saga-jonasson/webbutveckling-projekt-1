@@ -69,13 +69,6 @@ a{
     color: black;
 }
 
-/*li a{
-    display: block;
-    text-align: center;
-    padding: 20px, 100px;
-    margin: 10px;
-}*/
-
 li{
     float: left;
     background-color: goldenrod;
@@ -97,4 +90,24 @@ li:hover {
     align-items: center;
     margin: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.potatis{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.portrait img{
+    margin: 10px;
+    width: 95%;
+    height: auto;
+}
+
+.woa h1{
+    font-size: 11em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
