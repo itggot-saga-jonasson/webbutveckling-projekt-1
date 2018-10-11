@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    height: 100%;
 }
 
 .wrapper{
@@ -7,6 +8,7 @@ body{
     height: 100%;
     width: 100%;
 }
+
 
 header{
     width: 100%;
@@ -20,7 +22,7 @@ header{
 main{
     display: grid;
     grid-template-columns: 10% 80% 10%;
-    height: 100vh;
+
 }
 .box{
     background-color: rgba(246, 193, 193, 0.62);
@@ -95,6 +97,7 @@ li:hover {
 .potatis{
     display: grid;
     grid-template-columns: 20% 80%;
+    margin: 10px 10px 50px 10px;
 }
 
 .portrait img{
@@ -105,9 +108,57 @@ li:hover {
 
 .woa h1{
     font-size: 11em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Comic Sans MS", cursive, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.pananbaj h1{
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+.pananbaj{
+    border-style: solid;
+    border-color: black;
+    margin: 0px 45% 0px 45%;
+}
+
+.awards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 100vh;
+}
+
+.Oscar{
+    background-color: khaki;
+    border-style: groove;
+    border-color: black;
+    margin: 5px 5px 5px 5px;
+}
+
+.Emmy{
+    background-color: saddlebrown;
+    border-style: groove;
+    border-color: black;
+    margin: 5px 5px 5px 0px;
+}
+
+.Tony{
+    background-color: seagreen;
+    border-style: groove;
+    border-color: black;
+    margin: 5px 5px 5px 0px;
+}
+
+.awards h1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10;
 }
