@@ -162,3 +162,8 @@ li:hover {
     text-align: center;
     margin: 10;
 }
+
+.portrait img{
+    border-style: groove;
+    border-color: black;
+}
